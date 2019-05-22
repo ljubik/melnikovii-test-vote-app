@@ -1,16 +1,16 @@
-[{candidateCollection: [
-    {
-      id: 0,
-      name: 'Tramp'
+{
+"candidateCollection":[{ "id": "0",
+    "name": "Tramp"
     },
     {
-      id: 1,
-      name: 'Klinton'
+    "id": "1",
+    "name": "Klinton"
     }
   ],
-  colors: ['#6f42c1', '#fd7e14'],
-  voteCounts: {
-    id_0: 0,
-    id_1: 0,
-    total: 0
-  }}]
+  "colors": ["#6f42c1", "#fd7e14"],
+  "voteCounts": {
+    "id_0": "0",
+    "id_1": "0",
+    "total": "0"
+}
+}

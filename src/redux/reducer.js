@@ -1,26 +1,25 @@
 import { INCREASE_COUNTER } from './actions';
 import axios from 'axios';
+import Stores from './stores';
 
 // Make a request for a user with a given ID
-axios
-  .get('http://localhost:3000/post.json')
-  .then(function(response) {
-    // handle success
-    console.log('response', response);
-    console.log('dani', response.data);
-    const candidateCollection = response.data;
-  })
-  .catch(function(error) {
-    // handle error
-    console.log(error);
-  })
-  .finally(function() {
-    // always executed
-  });
+// axios
+//   .get('http://localhost:3000/post.json')
+//   .then(function(response) {
+//     // handle success
+//     console.log('response', response);
+//     console.log(response.data);
+//     const candidateCollection = response.data;
+//   })
+//   .catch(function(error) {
+//     // handle error
+//     console.log(error);
+//   })
+//   .finally(function() {
+//     // always executed
+//   });
 
-const INITIAL_STATE = 
-
- {
+const INITIAL_STATE = {
   candidateCollection: [
     {
       id: 0,

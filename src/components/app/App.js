@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import Candidate from '../candidate/Candidate.connect';
 import Chart from '../chart/Chart.connect';
-
+import Stores from '../../redux/stores';
 import './App.css';
 
 const App = (props) => {
@@ -27,6 +27,7 @@ const App = (props) => {
             voteTotal={voteCounts.total}
             color={colors[0]}
           />
+          {/* <Store candidate={this.candidateCollection[0]}></Store> */}
         </div>
         <div className={'app__item'}>
           <Chart />
@@ -38,6 +39,7 @@ const App = (props) => {
             voteTotal={voteCounts.total}
             color={colors[1]}
           />
+          {/* <Store candidate={this.candidateCollection[1]}></Store> */}
         </div>
       </div>
     </div>
